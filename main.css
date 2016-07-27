@@ -1,0 +1,91 @@
+body {
+	background-image: url("images/bkgd-hi.png");
+	background-color: rgb(255, 250, 245);
+}
+
+a:link {
+	color: rgb(26, 26, 26);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(26, 26, 26);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(26, 26, 26);
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+
+ol {
+	padding-bottom: 20px;
+}
+
+li {
+	font-size: 30px;
+	font-weight: 600;			/*  Adds bold weight to the font  */
+	list-style-type: none;		/* Hides the numbers preceding the list items  */
+
+}
+
+
+.a_side {
+	background-color: rgb(250, 250, 250);
+	border: 10px double rgb(26, 26, 26);
+	color: rgb(26, 26, 26);
+	font-family: 'Sorts Mill Goudy', serif;		/*  Uses the Sorts Mill Goudy font linked to Google Fonts  */
+	height: 40%;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 70%;
+}
+
+.ital_font {
+	font-style: italic;
+	text-transform: none;	/*  Didn't want the word 'of' to be uppercase, this class had to specify the text would not be tranformed */
+}
+
+hr {
+	align: center;
+	border: 0;
+	border-top: 2px solid rgb(26, 26, 26);
+	border-bottom: 1px solid #fff;
+	page-break-before: avoid;
+	page-break-after: avoid;
+	position: relative;
+	width: 92%;
+}
+
+
+.b_side {
+	background-color: rgb(250, 250, 250);
+	border: 10px double rgb(26, 26, 26);
+	border-radius: 50%;
+	color: rgb(26, 26, 26);
+	font-family: 'Lora', serif;				/*  Uses the Lora font linked to Google Fonts  */
+	font-size: 16px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	width: 250px;
+}
+
+address {
+	font-style: normal;				/*  Changes the default 'address' italic font back to the normal font style  */
+}
+
